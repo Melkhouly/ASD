@@ -21,10 +21,10 @@ public class Main {
 		sa1.setAccountNumber("sa1001");
 		sa1.setBalance(1000);
 		
-		Interest interest= new SavingAccountInterest();
-		interest.calculateInterest(sa1);
+		//Interest interest= new SavingAccountInterest();
+		//interest.calculateInterest(sa1);
 		
-		sa1.setInterest(interest);
+		//sa1.setInterest(interest);
 		
 		
 		AccountService as = new AccountServiceImpl();
